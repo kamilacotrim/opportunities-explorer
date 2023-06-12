@@ -1,7 +1,6 @@
 import streamlit as st
 import requests
 import streamlit_analytics
-from streamlit_tags import st_tags_sidebar
 
 st.set_page_config(
     page_icon=":atom:",
