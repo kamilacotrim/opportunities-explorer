@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import streamlit_analytics
-from streamlit_tags import st_tags_sidebar
 
 
 st.set_page_config(
@@ -91,18 +90,6 @@ with streamlit_analytics.track():
                     st.write("Link do Perfil da Instituição:", link[i])
                     st.write("-----------")
 
+                    
     if __name__ == "__main__":
         main()
-
-
-keyword = st_tags_sidebar(
-        value=['Bolsas de estudos', 'Faculdade', 'Internacional'],
-        suggestions=['College', 'University', 'Tuition', 
-                    'International'],
-        maxtags = 4,
-        key='2')
-
-
-
-# Define the URL with query parameters
-st.sidebar.write('Sponsor and contact: cotrimkamila@gmail.com')
