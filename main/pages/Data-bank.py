@@ -94,13 +94,6 @@ def main():
         else:
             st.warning("Please enter a search query.")
 
+            
 if __name__ == "__main__":
     main()
-
-
-keyword = st_tags_sidebar(
-        value=['Análise de dados', 'Ciência de dados', 'Database'],
-        suggestions=['College', 'University', 'Tuition', 
-                    'International'],
-        maxtags = 4,
-        key='2')
