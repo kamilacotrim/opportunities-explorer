@@ -7,7 +7,7 @@ big things with a small beginning.
 I'm a developer from Brazil, and I'm constantly bothered by the fate of 
 opportunities to a selected group in my country without a deep exploration of human capabilities.
 
-The first page, called College Map is to encourage an open vision of education;
+The first page, called College Map is to encourage an open vision of education.
 The second page, Data-bank, is for beginners data scientists like me who need direction.
 The last page, AI-builder, is for everyone that needs money to pay for an AI service.
 
