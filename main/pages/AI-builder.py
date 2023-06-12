@@ -1,7 +1,6 @@
 import streamlit as st
 import tensorflow_datasets as tfds
 import streamlit_analytics
-from streamlit_tags import st_tags_sidebar
 
 st.set_page_config(
     page_icon=":atom:",
@@ -63,11 +62,3 @@ with streamlit_analytics.track():
         st.write(dataset.info.citation)
         
         st.write("--------")
-
-
-keyword = st_tags_sidebar(
-        value=['Machine Learning', 'AI generator', 'Technology'],
-        suggestions=['College', 'University', 'Tuition', 
-                    'International'],
-        maxtags = 4,
-        key='2')
