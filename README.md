@@ -23,8 +23,7 @@ OSF API<br>
 
 I learned how to work with APIs when I needed to face them.<br>
 
-College Map will display the name of colleges in the US, degrees offered, and tuition.
-The original Excel file has more information as the link to the institution's profile.<br>
+College Map will display the name of colleges in the US, degrees offered, tuition, and the link to the institution's profile.<br>
 
 Data-Bank will show databases from several fields in pdf and Excel files.
 
