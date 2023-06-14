@@ -57,8 +57,5 @@ with streamlit_analytics.track():
         st.write('\n')
         st.subheader('Dataset Summary')
         st.write(dataset.info.description)
-        st.write('\n')
-        st.subheader('Dataset Citation')
-        st.write(dataset.info.citation)
         
         st.write("--------")
