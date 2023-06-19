@@ -1,4 +1,4 @@
-# Atomic Universe
+# Opportunities Explorer
 
 
 I built this project to help students to create
