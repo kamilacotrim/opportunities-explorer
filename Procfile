@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run College-Map.py
+web: sh setup.sh && streamlit run main/College-Map.py
