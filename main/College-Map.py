@@ -43,7 +43,7 @@ with streamlit_analytics.track():
 
     def main():
 
-        st.title("Programas Acadêmicos")
+        st.title("Programas Acadêmicos nos EUA")
         st.subheader('Dados originais:')
         df = pd.read_excel("data/College_Map_Results2023_05_23_23.46.18.xls")
         st.write(df)
