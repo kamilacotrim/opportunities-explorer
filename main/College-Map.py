@@ -50,7 +50,7 @@ with streamlit_analytics.track():
         st.write('\n')
         st.write('\n')
 
-        st.subheader('Dados selecionados irão aparecer aqui:')
+        st.subheader('Dados filtrados:')
         # Load the Excel file containing the college data
         st.write('\n')
         df = pd.read_excel("data/College_Map_Results2023_05_23_23.46.18.xls", sheet_name="Colleges")
@@ -59,7 +59,7 @@ with streamlit_analytics.track():
         cities = df["City"].unique().tolist()
 
         # Select a state using the st.selectbox
-        selected_city = st.sidebar.multiselect("Selecione uma cidade:", cities)
+        selected_city = st.multiselect("Selecione uma cidade:", cities)
         
 
         if selected_city:
