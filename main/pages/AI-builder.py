@@ -38,7 +38,7 @@ st.image(image, caption='Image by pikisuperstar on Freepik')
 
 with streamlit_analytics.track():
 
-    st.title('Projetos de Machine Learning')
+    st.title('Projetos de Machine Learning com TensorFlow')
     st.write('\n')
     st.write('\n')
     # List all available dataset collections
