@@ -18,7 +18,7 @@ st.markdown("""
   
         </style>""", unsafe_allow_html=True)
 
-
+st.header("Programas Acadêmicos nos EUA")
 # Create a DataFrame from the processed data
 df = pd.read_excel('data/college.xlsx', sheet_name="Colleges")
 
